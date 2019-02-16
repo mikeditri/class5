@@ -29,21 +29,36 @@ import os
 
 assert os.path.isfile(my_csv_file) , "please give us a real file"
 
-print('woot the file exists')
+#print('woot the file exists')
 
 #1b. load the file
 import pandas as pd
 
 data = pd.read_csv(my_csv_file, header=None)
-print(data.head())
+#print(data.head())
 
 #for item in dir(data):
 #    print(item)
 
-print(data.shape)
+#print(data.shape)
 
+#2. organize that file, so we can access columns #or# rows of it easily
+#2a. access row
+#2b. access column
+#2c. access any value
 
+#print("this is the first row")
+#print(data.iloc[0])
+#print("this is the first column")
+#print(data.iloc[:,0])
+#print("this is the first data point in first column and row")
+#print(data.iloc[0,0])
 
+#3. compute some "summary stats"
 
+import numpy as np
+
+print(np.mean(data))
+print(np.std(data))
 
 
