@@ -1,4 +1,5 @@
 # class5
+OPEN ME WITH TEXT EDITOR
 
 00. Basic: Write Psuedocode for how to A) load, B) "organize", C) compute summary statistics (all A-C were done in class today), D) Visualize the data, 1-feature (column) at a time, i.e. histogram, and save the figures to files E) Visualize the data, 2-features (columns) at a time, i.e. scatter plot, and save the figures to files,
 000. (intermediate) F) Pseudocode for adding header data to your table, for an arbitrary one of these datasets,
