@@ -1,10 +1,23 @@
 # class5
 OPEN ME WITH TEXT EDITOR
 
+How to run week6_script.py:
+
+1. Download wine.data.txt and week6_script.py
+2. In terminal navigate to folder where you saved it
+3. run this: python week6_script.py wine.data.txt
+4. Should output in the terminal the summary stats, then the histograms for each variable will be saved in the same path, then the 2-feature scatter plots will be saved, then the correlation matrix heat map will also be saved.
+5. open any of the files created to view the visualizations.
+
+
+HOMEWORK Instructions:
+
 00. Basic: Write Psuedocode for how to A) load, B) "organize", C) compute summary statistics (all A-C were done in class today), D) Visualize the data, 1-feature (column) at a time, i.e. histogram, and save the figures to files E) Visualize the data, 2-features (columns) at a time, i.e. scatter plot, and save the figures to files,
 000. (intermediate) F) Pseudocode for adding header data to your table, for an arbitrary one of these datasets,
 0000. (reach) G) Pseudocode for an additional type of plot (Google to find plot types of interest) for visualizing 2 or more of the features at a time.
 Recommendation: plan to use `matplotlib` for plotting
+
+Pseudocode:
 
 0. Load data
 0.1   Import data file
